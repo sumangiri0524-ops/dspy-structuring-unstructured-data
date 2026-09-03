@@ -1,0 +1,126 @@
+{
+  "execution_mode": "mock",
+  "model_configured": "mock_engine",
+  "target_confidence": 0.9,
+  "total_urls_processed": 10,
+  "successful_scrapes": 7,
+  "failed_scrapes": 3,
+  "total_raw_entities": 1548,
+  "total_deduplicated_entities": 1510,
+  "average_confidence_achieved": 0.95,
+  "total_triples_extracted": 5252,
+  "mermaid_files_generated": 10,
+  "tags_csv_rows": 1510,
+  "results_per_url": [
+    {
+      "index": 1,
+      "url": "https://en.wikipedia.org/wiki/Sustainable_agriculture",
+      "scrape_success": true,
+      "error_message": null,
+      "raw_entities_count": 1124,
+      "deduplicated_entities_count": 1095,
+      "confidence": 0.95,
+      "triples_count": 4393,
+      "mermaid_file": "mermaid_1.md"
+    },
+    {
+      "index": 2,
+      "url": "https://www.nature.com/articles/d41586-025-03353-5",
+      "scrape_success": true,
+      "error_message": null,
+      "raw_entities_count": 68,
+      "deduplicated_entities_count": 67,
+      "confidence": 0.95,
+      "triples_count": 64,
+      "mermaid_file": "mermaid_2.md"
+    },
+    {
+      "index": 3,
+      "url": "https://www.sciencedirect.com/science/article/pii/S1043661820315152",
+      "scrape_success": false,
+      "error_message": "HTTP 403: Forbidden",
+      "raw_entities_count": 0,
+      "deduplicated_entities_count": 0,
+      "confidence": 1.0,
+      "triples_count": 0,
+      "mermaid_file": "mermaid_3.md"
+    },
+    {
+      "index": 4,
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10457221/",
+      "scrape_success": false,
+      "error_message": "HTTP 403: Forbidden",
+      "raw_entities_count": 0,
+      "deduplicated_entities_count": 0,
+      "confidence": 1.0,
+      "triples_count": 0,
+      "mermaid_file": "mermaid_4.md"
+    },
+    {
+      "index": 5,
+      "url": "https://www.fao.org/3/y4671e/y4671e06.htm",
+      "scrape_success": true,
+      "error_message": null,
+      "raw_entities_count": 214,
+      "deduplicated_entities_count": 207,
+      "confidence": 0.95,
+      "triples_count": 591,
+      "mermaid_file": "mermaid_5.md"
+    },
+    {
+      "index": 6,
+      "url": "https://www.medscape.com/viewarticle/time-reconsider-tramadol-chronic-pain-2025a1000ria",
+      "scrape_success": true,
+      "error_message": null,
+      "raw_entities_count": 43,
+      "deduplicated_entities_count": 42,
+      "confidence": 0.95,
+      "triples_count": 63,
+      "mermaid_file": "mermaid_6.md"
+    },
+    {
+      "index": 7,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0378378220307088",
+      "scrape_success": false,
+      "error_message": "HTTP 403: Forbidden",
+      "raw_entities_count": 0,
+      "deduplicated_entities_count": 0,
+      "confidence": 1.0,
+      "triples_count": 0,
+      "mermaid_file": "mermaid_7.md"
+    },
+    {
+      "index": 8,
+      "url": "https://www.frontiersin.org/news/2025/09/01/rectangle-telescope-finding-habitable-planets",
+      "scrape_success": true,
+      "error_message": null,
+      "raw_entities_count": 8,
+      "deduplicated_entities_count": 8,
+      "confidence": 0.95,
+      "triples_count": 7,
+      "mermaid_file": "mermaid_8.md"
+    },
+    {
+      "index": 9,
+      "url": "https://www.medscape.com/viewarticle/second-dose-boosts-shingles-protection-adults-aged-65-years-2025a1000ro7",
+      "scrape_success": true,
+      "error_message": null,
+      "raw_entities_count": 35,
+      "deduplicated_entities_count": 35,
+      "confidence": 0.95,
+      "triples_count": 52,
+      "mermaid_file": "mermaid_9.md"
+    },
+    {
+      "index": 10,
+      "url": "https://www.theguardian.com/global-development/2025/oct/13/astro-ambassadors-stargazers-himalayas-hanle-ladakh-india",
+      "scrape_success": true,
+      "error_message": null,
+      "raw_entities_count": 56,
+      "deduplicated_entities_count": 56,
+      "confidence": 0.95,
+      "triples_count": 82,
+      "mermaid_file": "mermaid_10.md"
+    }
+  ]
+}
